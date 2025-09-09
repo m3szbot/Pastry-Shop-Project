@@ -1,0 +1,30 @@
+INSTRUCTIONS:
+Open a Linux terminal
+Navigate to src directory
+Compile program
+Execute program using files as input and output
+
+
+Program compiling:
+To change file, simply substitute "source" to the desired file's name (without extensions) in the commands.
+
+Compiler command:
+make source
+
+Program execution:
+Input from stdin, output on stdout, used by verifier program.
+
+To execute reading from and writing to file, use command:
+./source < input_file > output_file
+
+Example:
+./source < "../tests/open1.txt" > "../tests/output.txt"
+
+To contrast expected and written output files use command:
+diff ./expected_output_file ./program_output_file
+
+Example:
+diff ./"../tests/open1.output.txt" ./"../tests/program.output.txt"
+diff ./"../tests/open2.output.txt" ./"../tests/program.output.txt"
+
+To change test case simply rewrite the file names of the input and expected output.
