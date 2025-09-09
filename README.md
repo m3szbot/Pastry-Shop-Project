@@ -8,40 +8,43 @@
 A **high-performance administrative software** designed to manage **orders, inventory, and recipes** for a pastry shop.  
 The program demonstrates the **practical application of algorithms** and **data structures** to ensure correctness, scalability, and **time-space efficiency**.
 
-The program has 3 versions, graded 18, 27, or 30 out of 30 based on efficiency constraints. The default version is `source`, graded 30.
+The program has **3 versions**, graded 18, 27, or 30 out of 30 based on efficiency constraints.  
+The default version is `source`, graded 30.
 
 ---
 
-## Project Overview
+## 📋 Project Overview
 
 This project was developed as part of the **Algorithms and Informatics Principles** course, while studying Computer Engineering BSc at the Politecnico di Milano.  
 The exact requirements and tools descriptions are in Italian.
 
 It focuses on:
 
-- Implementing efficient **data structures** and **algorithms**.
-- Ensuring **correctness** and **performance optimization**.
-- Processing **stdin commands** dynamically and producing corresponding **stdout results**.
+- Implementing efficient **data structures** and **algorithms**
+- Ensuring **correctness** and **performance optimization**
+- Processing **stdin commands** dynamically and producing corresponding **stdout results**
 
 The software autonomously:
 
-- Reads an **input sequence** containing specific commands.
-- Updates the internal state of the program accordingly.
-- Produces the expected outputs.
+- Reads an **input sequence** containing specific commands
+- Updates the internal state of the program accordingly
+- Produces the expected outputs
 
 ---
 
-## Features
+## ✨ Features
 
-- 📦 **Order Management** → Create pastry orders.
-- 🗃️ **Inventory Control** → Manage ingredients and supplies.
-- 📜 **Recipe Handling** → Add and delete recipes.
-- ⚡ **Performance-Oriented Design** → Optimized algorithms for speed and memory.
-- 🖥️ **Autonomous Processing** → Reads commands from **stdin** and writes results to **stdout**.
+- 📦 **Order Management** → Create pastry orders
+- 🗃️ **Inventory Control** → Manage ingredients and supplies
+- 📜 **Recipe Handling** → Add and delete recipes
+- ⚡ **Performance-Oriented Design** → Optimized algorithms for speed and memory
+- 🖥️ **Autonomous Processing** → Reads commands from **stdin** and writes results to **stdout**
 
 ---
 
-## Prerequisites
+## 🛠️ Prerequisites
+
+Before running the program, ensure your system has:
 
 - **Linux**
 - **GCC**
@@ -50,7 +53,7 @@ The software autonomously:
 
 ---
 
-## Instructions
+## 🚀 Instructions
 
 ### 1. Open a Linux terminal
 
@@ -76,7 +79,7 @@ make source
 Example:
 
 ```bash
-./source < "../tests/open1.txt" > "../tests/output.txt"
+./source < "../tests/open1.txt" > "../tests/program.output.txt"
 ```
 
 ### 5. Verify expected and program output
@@ -96,4 +99,6 @@ diff "../tests/open2.output.txt" "../tests/program.output.txt"
 
 ---
 
-## Example
+## 💻 Example
+
+![Program output example on terminal](images/screenshot.jpg)
