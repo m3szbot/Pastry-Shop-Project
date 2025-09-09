@@ -11,8 +11,6 @@ The program demonstrates the **practical application of algorithms** and **data 
 The program has **3 versions**, graded 18, 27, or 30 out of 30 based on efficiency constraints.  
 The default version is `source`, graded 30.
 
----
-
 ## 📋 Project Overview
 
 This project was developed as part of the **Algorithms and Informatics Principles** course, while studying Computer Engineering BSc at the Politecnico di Milano.  
@@ -30,8 +28,6 @@ The software autonomously:
 - Updates the internal state of the program accordingly
 - Produces the expected outputs
 
----
-
 ## ✨ Features
 
 - 📦 **Order Management** → Create pastry orders
@@ -39,8 +35,6 @@ The software autonomously:
 - 📜 **Recipe Handling** → Add and delete recipes
 - ⚡ **Performance-Oriented Design** → Optimized algorithms for speed and memory
 - 🖥️ **Autonomous Processing** → Reads commands from **stdin** and writes results to **stdout**
-
----
 
 ## 🛠️ Prerequisites
 
@@ -50,8 +44,6 @@ Before running the program, ensure your system has:
 - **GCC**
 - **Make** (for building with Makefile)
 - **Git** (to clone the repository)
-
----
 
 ## 🚀 Instructions
 
@@ -96,8 +88,6 @@ Examples:
 diff "../tests/open1.output.txt" "../tests/program.output.txt"
 diff "../tests/open2.output.txt" "../tests/program.output.txt"
 ```
-
----
 
 ## 💻 Example
 
